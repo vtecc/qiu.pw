@@ -3,6 +3,10 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/', //网站部署的路径，默认根目录
+  // 加上这行
+  head: [
+    ['link', { rel: 'canonical', href: 'https://qiu.pw' }]
+  ],
   title: "自行车组装帮助中心",
   description: "让每一位顾客都能够轻松的安装自己的自行车",
   lastUpdated: true,
