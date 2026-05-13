@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/qiu.pw/', //网站部署的路径，默认根目录
+  base: '/', //网站部署的路径，默认根目录
   title: "自行车组装帮助中心",
   description: "让每一位顾客都能够轻松的安装自己的自行车",
   lastUpdated: true,
@@ -23,7 +23,7 @@ export default defineConfig({
         {
           text: '抱闸系列安装指南',
           items: [
-            { text: '抱闸完整安装视频教程', link: '/brake/' },
+            { text: '抱闸安装视频教程', link: '/brake/' },
           ]
         },
         {
